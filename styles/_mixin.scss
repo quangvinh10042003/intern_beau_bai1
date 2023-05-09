@@ -1,0 +1,15 @@
+@mixin circleShadow {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    top: -40px;
+    left: -45px;
+    z-index: -1;
+    @media screen and (max-width: 787px) {
+        width: 80px;
+        height: 80px;
+        top: -30px;
+        left: -15px;
+    }
+}

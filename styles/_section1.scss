@@ -1,0 +1,31 @@
+.content1 {
+    margin-top: 120px;
+}
+
+.content1__title {
+    color: #2D2B36;
+}
+
+.content1__dsc {
+    color: $color-params;
+}
+
+.content1__circle {
+    @include circleShadow();
+}
+
+.content1__circle-pink {
+    background-color: #FBE9E9;
+}
+
+.content1__circle-green {
+    background-color: #E7FAF9;
+}
+
+.content1__circle-purple {
+    background-color: #F5ECFD;
+}
+
+.content1__circle-blue {
+    background-color: #E7EFFB;
+}

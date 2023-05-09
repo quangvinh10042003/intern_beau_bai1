@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import 'mixin';
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'section1';
+@import 'section2';
+@import 'section3';
+@import 'section4';
