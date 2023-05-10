@@ -29,3 +29,9 @@
 .content1__circle-blue {
     background-color: #E7EFFB;
 }
+
+@media screen and (max-width: 900px) {
+    .content1 {
+        margin-top: 60px;
+    }
+}

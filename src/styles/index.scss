@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+//abstracts
+@import './abstracts/mixin';
+@import './abstracts/variables';
+//components
+@import './components/header';
+@import './components/section1';
+@import './components/section2';
+@import './components/section3';
+@import './components/section4';
