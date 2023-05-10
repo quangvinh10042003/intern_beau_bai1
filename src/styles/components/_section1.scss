@@ -10,27 +10,7 @@
     color: $color-params;
 }
 
-.content1__circle {
-    @include circleShadow();
-}
-
-.content1__circle-pink {
-    background-color: #FBE9E9;
-}
-
-.content1__circle-green {
-    background-color: #E7FAF9;
-}
-
-.content1__circle-purple {
-    background-color: #F5ECFD;
-}
-
-.content1__circle-blue {
-    background-color: #E7EFFB;
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 00px) {
     .content1 {
         margin-top: 60px;
     }

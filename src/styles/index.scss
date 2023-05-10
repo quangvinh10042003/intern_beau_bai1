@@ -6,7 +6,6 @@
 }
 
 //abstracts
-@import './abstracts/mixin';
 @import './abstracts/variables';
 //components
 @import './components/header';
@@ -14,3 +13,4 @@
 @import './components/section2';
 @import './components/section3';
 @import './components/section4';
+@import './components/circleBg';

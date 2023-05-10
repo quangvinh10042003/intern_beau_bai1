@@ -1,0 +1,39 @@
+.circleBg {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    top: -40px;
+    left: -45px;
+    z-index: -1;
+}
+
+.circleBg-pink {
+    background-color: #FBE9E9;
+}
+
+.circleBg-green {
+    background-color: #E7FAF9;
+}
+
+.circleBg-purple {
+    background-color: #F5ECFD;
+}
+
+.circleBg-blue {
+    background-color: #E7EFFB;
+}
+
+.circleBg-orange {
+    background-color: #FDF0E7;
+    top: -20px
+}
+
+@media screen and (max-width: 787px) {
+    .circleBg {
+        width: 80px;
+        height: 80px;
+        top: -30px;
+        left: -15px;
+    }
+}

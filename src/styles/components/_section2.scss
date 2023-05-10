@@ -27,12 +27,6 @@
     z-index: -1;
 }
 
-.content2__bgcirlce {
-    @include circleShadow;
-    background-color: #FDF0E7;
-    top: -20px
-}
-
 .content2__quotes {
     font-size: 60px !important;
     color: $color-content-highlight;
