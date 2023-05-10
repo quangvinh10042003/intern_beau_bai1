@@ -1,4 +1,4 @@
-.circleBg {
+.circle-bg {
     position: absolute;
     width: 105px;
     height: 105px;
@@ -8,29 +8,29 @@
     z-index: -1;
 }
 
-.circleBg-pink {
+.circle-bg--pink {
     background-color: #FBE9E9;
 }
 
-.circleBg-green {
+.circle-bg--green {
     background-color: #E7FAF9;
 }
 
-.circleBg-purple {
+.circle-bg--purple {
     background-color: #F5ECFD;
 }
 
-.circleBg-blue {
+.circle-bg--blue {
     background-color: #E7EFFB;
 }
 
-.circleBg-orange {
+.circle-bg--orange {
     background-color: #FDF0E7;
     top: -20px
 }
 
 @media screen and (max-width: 787px) {
-    .circleBg {
+    .circle-bg {
         width: 80px;
         height: 80px;
         top: -30px;

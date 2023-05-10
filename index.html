@@ -20,279 +20,300 @@
 
 <body>
     <div class="container-fluid px-lg-5 px-md-3 px-1 py-2" id="root">
+        <!-- START header  -->
         <header class="header">
             <div class="row align-items-center mx-0">
                 <div class="header__logo">
                     <img src="./images/Bitmap.png" class="card-img" alt="">
                 </div>
-                <div class="header__menu d-lg-block d-none">
-                    <ul class="header__ul">
-                        <li class="header__li"><a>Home</a></li>
-                        <li class="header__li"><a>About Application</a></li>
-                        <li class="header__li"><a>Support</a></li>
-                        <li class="header__li"><a>Blog</a></li>
-                        <li class="header__li header__li-purple"><a>Get started</a></li>
-                        <li class="header__li header__li-green"><a>Buy now</a></li>
-                    </ul>
+                <!-- START nav  -->
+                <div class="header__menu">
+                    <div class="nav d-lg-block d-none">
+                        <ul class="nav__ul">
+                            <li class="nav__li"><a class="but">Home</a></li>
+                            <li class="nav__li"><a class="but">About Application</a></li>
+                            <li class="nav__li"><a class="but">Support</a></li>
+                            <li class="nav__li"><a class="but">Blog</a></li>
+                            <li class="nav__li"><a class="but but--purple">Get started</a></li>
+                            <li class="nav__li"><a class="but but--green">Buy now</a></li>
+                        </ul>
+                    </div>
+                    <div class="toggleMobile d-lg-none d-block">
+                        <a class="but but--purple"> Menu</a>
+                    </div>
                 </div>
-                <div class="header__toggleMobile d-lg-none d-block">
-                    <ul class="header__ul">
-                        <li class="header__li header__li-purple"><a> Menu</a></li>
-                    </ul>
-
-                </div>
+                <!-- END nav  -->
             </div>
         </header>
-        <!-- section 1  -->
-        <section class="content1 px-md-5 px-3 ">
-            <div class="row ">
-                <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="px-3 position-relative">
-                        <div class="circleBg circleBg-pink"></div>
-                        <h3 class="content1__title">WP + iOS + Android</h3>
-                        <p class="content1__dsc mt-4">Based on ReactJS and React Native, HsBlog not only is a WP theme, but also let you to build your iOS + Android App Native App</p>
+        <!-- END header  -->
+
+        <section class="page-section px-md-5 px-3 mt-50">
+            <!-- START top-box  -->
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="px-3 top-box">
+                        <div class="circle-bg circle-bg--pink"></div>
+                        <h3 class="top-box__title">WP + iOS + Android</h3>
+                        <div class="top-box__dsc mt-4">Based on ReactJS and React Native, HsBlog not only is a WP theme, but also let you to build your iOS + Android App Native App</div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="px-3 position-relative">
-                        <div class="circleBg circleBg-green"></div>
-                        <h3 class="content1__title">Single page application</h3>
-                        <p class="content1__dsc mt-4">SPA improves your Customer Experience. When navigating from a page to another page, HsBlog WILL NOT REFRESH Browser like other themes.</p>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="px-3 top-box">
+                        <div class="circle-bg circle-bg--green"></div>
+                        <h3 class="top-box__title">Single page application</h3>
+                        <div class="top-box__dsc mt-4">SPA improves your Customer Experience. When navigating from a page to another page, HsBlog WILL NOT REFRESH Browser like other themes.</div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="px-3 position-relative">
-                        <div class="circleBg circleBg-purple"></div>
-                        <h3 class="content1__title">Drag & Drop Page Builder</h3>
-                        <p class="content1__dsc mt-4">We have created our own Page Builder for HsBlog. It allows you to build either Web Page or App Home page.</p>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="px-3 top-box">
+                        <div class="circle-bg circle-bg--purple"></div>
+                        <h3 class="top-box__title">Drag & Drop Page Builder</h3>
+                        <div class="top-box__dsc mt-4">We have created our own Page Builder for HsBlog. It allows you to build either Web Page or App Home page.</div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="px-3 position-relative">
-                        <div class="circleBg circleBg-blue"></div>
-                        <h3 class="content1__title">Elite Support</h3>
-                        <p class="content1__dsc mt-4">help.highspeedblog.com is our Help Center where you can find useful information on Documentation page and You can ask for us anything there.</p>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="px-3 top-box">
+                        <div class="circle-bg circle-bg--blue"></div>
+                        <h3 class="top-box__title">Elite Support</h3>
+                        <div class="top-box__dsc mt-4">help.highspeedblog.com is our Help Center where you can find useful information on Documentation page and You can ask for us anything there.</div>
                     </div>
                 </div>
             </div>
+            <!-- END top-box  -->
         </section>
 
-        <!-- section 2  -->
-        <section class="content2 mt-5 px-md-5 px-3">
-            <h2 class="text-center fw-bold mt-5">Trusted by over <span class="content2-highlight">1000</span> users</h2>
-            <p class="content2__dsc">There are many things that are important to catalog design. <br> Your images must be sharp and appealing.</p>
-            <div class="content2__detail">
-                <div class="row align-items-center">
-                    <div class="col-md-6 position-relative">
-                        <div class="content2__outframe"></div>
-                        <div class="content2__img">
-                            <img src="./images/1.png" class="card-img" alt="1.png">
+        <section class="page-section">
+            <h2 class="text-center fw-bold mt-lg-5 mt-2">Trusted by over <span class="highlight-text--blue">1000</span> users</h2>
+            <div class="color-text--simple text-center mb-5">There are many things that are important to catalog design. <br> Your images must be sharp and appealing.</div>
+            <div>
+                <div class="outframe outframe--blue"></div>
+                <div class="px-md-5 px-3">
+
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <!-- START strusted-box-left  -->
+                            <div class="trusted-box-left">
+                                <!-- <div class="trusted-box-left__outframe trusted-box-left__outframe--primary"></div> -->
+                                <div class="trusted-box-left__img">
+                                    <img src="./images/1.png" class="card-img" alt="1.png">
+                                </div>
+                            </div>
+                            <!-- END strusted-box-left  -->
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="px-3 position-relative">
-                            <div class="circleBg circleBg-orange"></div>
-                            <span class="content2__quotes"><i class="fa-sharp fa-solid fa-quote-right"></i></span>
-                        </div>
-                        <p class="content2_text mt-2">Only five stars! and this despite the fact that the topic is still under improvement. I hope future updates will help her become even better. A great team with a great idea of the catalog.</p>
-                        <p class="content2_author">Dustin Barnes</p>
-                        <div class="content2__navSlide">
-                            <div class="content2__dot"></div>
-                            <div class="content2__dot"></div>
-                            <div class="content2__dot content2__dot-highlight"></div>
+                        <div class="col-md-6">
+                            <!-- START trusted-box-right  -->
+                            <div class="trusted-box-right">
+                                <div class="px-3 position-relative">
+                                    <div class="circle-bg circle-bg--orange trusted-box-right__circle"></div>
+                                    <span class="trusted-box-right__quotes"><i class="fa-sharp fa-solid fa-quote-right"></i></span>
+                                </div>
+                                <div class="mt-2 color-text--simple">Only five stars! and this despite the fact that the topic is still under improvement. I hope future updates will help her become even better. A great team with a great idea of the catalog.</div>
+                                <div class="trusted-box-right__author">Dustin Barnes</div>
+                                <div class="navSlide mt-md-4 mt-2 mb-5 mb-md-0">
+                                    <div class="navSlide__dot"></div>
+                                    <div class="navSlide__dot"></div>
+                                    <div class="navSlide__dot navSlide__dot--highlight"></div>
+                                </div>
+                            </div>
+                            <!-- END trusted-box-right  -->
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
         </section>
 
-        <!-- section 3  -->
-        <section class="content3 mt-5">
+
+        <section class="page-section page-section--bg_orange py-5">
             <div class=" px-md-5 px-3">
-                <h2 class="text-center fw-bold">Essential <span class="content3__title--highlight">features</span> for you</h2>
-                <p class="text-center content3__subtitle">There are many things that are important to catalog design. <br> Your images must be sharp and appealing.</p>
-
+                <h2 class="text-center fw-bold">Essential <span class="highlight-text--blue">features</span> for you</h2>
+                <div class="text-center color-text--simple mb-5">There are many things that are important to catalog design. <br> Your images must be sharp and appealing.</div>
+                <!-- START features -->
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mt-3">
-                        <div class="content3__card">
-                            <div class="content3__icon content3__icon-color1"><i class="fa-solid fa-heart"></i></div>
+                        <div class="features">
+                            <div class="features__icon features__icon--color1"><i class="fa-solid fa-heart"></i></div>
                             <h4 class="fw-bold">Favorite Posts</h4>
-                            <p class="content3__text">It's a useful feature for your customers: They can SAVE an useful article and easily reach it in future under Favorite Store.</p>
+                            <div class="features__text">It's a useful feature for your customers: They can SAVE an useful article and easily reach it in future under Favorite Store.</div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 mt-3">
-                        <div class="content3__card">
-                            <div class="content3__icon content3__icon-color2"><i class="fa-solid fa-clock"></i></div>
+                        <div class="features">
+                            <div class="features__icon features__icon--color2"><i class="fa-solid fa-clock"></i></div>
                             <h4 class="fw-bold">Recently Viewed</h4>
-                            <p class="content3__text">Every time visits an article, HSBlog will remember it. Customers can easily reach it next time under Recently Reviewed area.</p>
+                            <div class="features__text">Every time visits an article, HSBlog will remember it. Customers can easily reach it next time under Recently Reviewed area.</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-3">
-                        <div class="content3__card">
-                            <div class="content3__icon content3__icon-color3"><i class="fa-solid fa-book"></i></div>
+                        <div class="features">
+                            <div class="features__icon features__icon--color3"><i class="fa-solid fa-book"></i></div>
                             <h4 class="fw-bold">Awesome Mega Menu</h4>
-                            <p class="content3__text">A useful feature helps you can add more information to your menu but still keep it simple and clean</p>
+                            <div class="features__text">A useful feature helps you can add more information to your menu but still keep it simple and clean</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-3">
-                        <div class="content3__card">
-                            <div class="content3__icon content3__icon-color4"><i class="fa-solid fa-gear"></i></div>
+                        <div class="features">
+                            <div class="features__icon features__icon--color4"><i class="fa-solid fa-gear"></i></div>
                             <h4 class="fw-bold">Theme Options</h4>
-                            <p class="content3__text">Here you can customize Header Style, Footer Style, Heading Tags’s Font, Social Networks, MailChimp, Youtube and much more...</p>
+                            <div class="features__text">Here you can customize Header Style, Footer Style, Heading Tags’s Font, Social Networks, MailChimp, Youtube and much more...</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-3">
-                        <div class="content3__card">
-                            <div class="content3__icon content3__icon-color5"><i class="fa-solid fa-thumbs-up"></i></div>
+                        <div class="features">
+                            <div class="features__icon features__icon--color5"><i class="fa-solid fa-thumbs-up"></i></div>
                             <h4 class="fw-bold">Social Login</h4>
-                            <p class="content3__text">In addition Default WordPress Login, Customer can easily signin /signup to your site with their Facebook and Apple.</p>
+                            <div class="features__text">In addition Default WordPress Login, Customer can easily signin /signup to your site with their Facebook and Apple.</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-3">
-                        <div class="content3__card">
-                            <div class="content3__icon content3__icon-color6"><i class="fa-solid fa-circle-check"></i></div>
+                        <div class="features">
+                            <div class="features__icon features__icon--color6"><i class="fa-solid fa-circle-check"></i></div>
                             <h4 class="fw-bold">Google reCaptcha V3</h4>
-                            <p class="content3__text">Protects your site website forms from spam entries while letting real people pass through with ease</p>
+                            <div class="features__text">Protects your site website forms from spam entries while letting real people pass through with ease</div>
                         </div>
                     </div>
                 </div>
+                <!-- END features -->
+
             </div>
         </section>
 
-        <!-- section 4  -->
-        <section class="content4 mt-5 px-md-5 px-3 py-3 mb-5">
+        <section class="page-section px-md-5 px-3 py-3 mb-5">
             <h2 class="text-center mt-5 fw-bold">Popular posts</h2>
-            <p class="text-center content4__subtitle mt-3">There are many things that are important to catalog design. <br> Your images must be sharp and appealing.</p>
-
+            <div class="text-center color-text--simple mt-3">There are many things that are important to catalog design. <br> Your images must be sharp and appealing.</div>
+            <!-- START cardItem  -->
             <div class="row">
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItem">
+                        <div class="cardItem__img">
                             <img src="./images/1cd4f075c85fece24d68874ee0ca8180ac068abf.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">Alii autem quibus ego assentior</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">Alii autem quibus ego assentior</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItem">
+                        <div class="cardItem__img">
                             <img src="./images/6ae9ef2ed21a5434574c836aff73eeea7ec4f021.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">Sunt autem nusquam hoc epicurus in..</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">Sunt autem nusquam hoc epicurus in..</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItem">
+                        <div class="cardItem__img">
                             <img src="./images/706c995787a4b19d99e3d9a3799a3dc26399d63b.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">How To Write Better Advertising Copy</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">How To Write Better Advertising Copy</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItem">
+                        <div class="cardItem__img">
                             <img src="./images/8c6fc143bfcc72ced1adcd8e31485ac285df193b.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">Omne animal simul atque in</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">Omne animal simul atque in</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItem">
+                        <div class="cardItem__img">
                             <img src="./images/a2ba595b5c71a2a40af62e4b86ecfc9552826f33.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">Torquatos nostros quos tu tam</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">Torquatos nostros quos tu tam</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItemItem">
+                        <div class="cardItem__img">
                             <img src="./images/b89a8b171ff8cf27f1387b89b8e0b9d3845c74a5.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">Promote With Postcards</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">Promote With PostcardItems</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItem">
+                        <div class="cardItem__img">
                             <img src="./images/d364c202842e941f8f25828bccc12a06203f82ef.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">Probabo, inquit, sic agam, ut ita ruant something for test bla</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">Probabo, inquit, sic agam, ut ita ruant something for test bla</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItem">
+                        <div class="cardItem__img">
                             <img src="./images/f16b8bea6928051c0f37c3e50735637cb92e72c3.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">Epicurus in armatum hostem impetum</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">Epicurus in armatum hostem impetum</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="content4__card">
-                        <div class="content4__img">
+                    <div class="cardItem">
+                        <div class="cardItem__img">
                             <img src="./images/f3f2aaf6e3723a6df67214f92416e5c2a620344a.png" class="card-img" alt="">
                         </div>
-                        <div class="content4__text">
-                            <div class="content4__tag">Design
-                                <div class="content4__triangle"></div>
+                        <div class="cardItem__text">
+                            <div class="cardItem__tag">Design
+                                <div class="cardItem__triangle"></div>
                             </div>
-                            <p class="fw-bold mb-0 mt-2 content4__cardtitle">Low Cost Advertising</p>
-                            <p class="content4_textsmall">November 9, 2019 • 03 Comments</p>
+                            <div class="fw-bold mb-0 mt-2 cardItem__cardItemtitle">Low Cost Advertising</div>
+                            <div class="cardItem_textsmall">November 9, 2019 • 03 Comments</div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- END cardItem  -->
         </section>
     </div>
 </body>

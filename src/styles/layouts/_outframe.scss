@@ -1,0 +1,30 @@
+.outframe {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0px 48px 48px 0px;
+    left: 0;
+    top: 50%;
+    transform: translatey(-55%);
+    z-index: -1;
+}
+
+.outframe--blue {
+    background: #F0F9FE;
+}
+
+.outframe--right {
+    border-radius: 48px 0px 0px 48px;
+    right: 0;
+}
+
+div:has(.outframe),
+section:has(.outframe) {
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .outframe {
+        width: 70%;
+    }
+}

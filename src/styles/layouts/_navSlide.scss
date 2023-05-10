@@ -1,0 +1,18 @@
+.navSlide {
+    display: flex;
+    align-items: center;
+}
+
+.navSlide__dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #E8E8EB;
+    margin-right: 16px;
+}
+
+.navSlide__dot--highlight {
+    background-color: $color-content-highlight;
+    width: 21px;
+    height: 21px;
+}

@@ -1,50 +1,46 @@
-.content4__subtitle {
-    color: $color-params;
-}
-
-.content4__card {
+.cardItem {
     background: #FFFFFF;
     box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
-.content4__img {
+.cardItem__img {
     border-radius: 8px 8px 0px 0px;
     overflow: hidden;
 }
 
-.content4__text {
+.cardItem__text {
     padding: 20px;
     position: relative;
 }
 
-.content4_textsmall {
+.cardItem_textsmall {
     font-size: 13px;
     color: #817F8A;
 }
 
-.content4__cardtitle {
+.cardItem__cardItemtitle {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.content4__tag {
+.cardItem__tag {
     position: absolute;
     padding: 5px 15px;
     color: #FFFFFF;
     background-color: #5D69FB;
     top: -25px;
     left: 0;
-}
-
-.content4__triangle {
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 17px solid transparent;
-    border-bottom: 25px solid #3E46A4;
-    position: absolute;
-    top: 0px;
-    right: -17px;
+    &::after {
+        width: 100%;
+        height: 75%;
+        background-color: #8c00ff;
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        clip-path: polygon(0 0, 0% 100%, 20% 100%);
+    }
 }

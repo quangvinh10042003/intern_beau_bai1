@@ -1,0 +1,17 @@
+.top-box {
+    position: relative;
+}
+
+.top-box__title {
+    color: #2D2B36;
+}
+
+.top-box__dsc {
+    color: $color-params;
+}
+
+@media screen and (max-width: 1000px) {
+    .top-box {
+        margin-bottom: 30px;
+    }
+}

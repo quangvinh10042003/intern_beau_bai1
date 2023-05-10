@@ -9,8 +9,16 @@
 @import './abstracts/variables';
 //components
 @import './components/header';
-@import './components/section1';
-@import './components/section2';
-@import './components/section3';
-@import './components/section4';
 @import './components/circleBg';
+@import './components/button';
+@import './components/top-box';
+@import './components/features';
+@import './components/trusted-box';
+@import './components/cardItem';
+//layouts
+@import './layouts/section';
+@import './layouts/navSlide';
+@import './layouts/outframe';
+//base
+@import './base/modify';
+@import './base/typhograper';
